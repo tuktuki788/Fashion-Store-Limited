@@ -7,7 +7,10 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-white">
       <div className="mx-auto flex h-[68px] w-[92%] max-w-[1160px] items-center justify-between">
-        <a href="#home" className="text-xl font-bold text-brand">Fashion<span className="text-black">storebd</span>.com</a>
+        <a href="#home" className="flex items-center gap-2.5">
+          <img src="/logo.png" alt="Fashionstorebd.com logo" className="h-10 w-auto md:h-12" />
+          <span className="hidden text-xl font-bold text-brand sm:inline">Fashion<span className="text-black">storebd</span>.com</span>
+        </a>
         <button className="p-1.5 md:hidden" aria-label="Toggle menu" aria-expanded={open} onClick={() => setOpen(!open)}>
           {[0, 1, 2].map((i) => <span key={i} className="my-1 block h-[3px] w-[26px] rounded bg-brand" />)}
         </button>
