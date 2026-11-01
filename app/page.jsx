@@ -17,7 +17,7 @@ export default function Home() {
           <video className="absolute inset-0 h-full w-full object-cover" autoPlay muted loop playsInline poster="/hero.jpg">
   <source src="/hero.mp4" type="video/mp4" />
 </video>
-<div className="absolute inset-0 bg-white/80" />
+<div className="absolute inset-0 bg-white/40" />
           <div className="absolute -right-28 -top-28 h-[420px] w-[420px] rounded-full bg-brand/10" />
           <div className="absolute -bottom-40 right-28 h-80 w-80 rounded-full bg-brand/5" />
           <div className="relative mx-auto w-[92%] max-w-[1160px]">
