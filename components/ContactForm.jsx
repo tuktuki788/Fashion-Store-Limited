@@ -16,7 +16,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={submit}>
-      <input className={field} placeholder="Fashonstore" value={f.name} onChange={set("name")} required />
+      <input className={field} placeholder="Your name" value={f.name} onChange={set("name")} required />
       <input className={field} type="email" placeholder="Your email" value={f.email} onChange={set("email")} required />
       <textarea className={field} rows={5} placeholder="Tell us about your requirements" value={f.message} onChange={set("message")} required />
       <button className="rounded-full border-2 border-brand bg-brand px-7 py-3 font-semibold text-white transition hover:bg-white hover:text-brand">Send message</button>
