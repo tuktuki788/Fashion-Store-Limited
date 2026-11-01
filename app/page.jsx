@@ -14,6 +14,10 @@ export default function Home() {
       <Header />
       <main>
         <section id="home" className="relative overflow-hidden bg-white pb-24 pt-20 md:pb-28 md:pt-28">
+          <video className="absolute inset-0 h-full w-full object-cover" autoPlay muted loop playsInline poster="/hero.jpg">
+  <source src="/hero.mp4" type="video/mp4" />
+</video>
+<div className="absolute inset-0 bg-white/80" />
           <div className="absolute -right-28 -top-28 h-[420px] w-[420px] rounded-full bg-brand/10" />
           <div className="absolute -bottom-40 right-28 h-80 w-80 rounded-full bg-brand/5" />
           <div className="relative mx-auto w-[92%] max-w-[1160px]">
