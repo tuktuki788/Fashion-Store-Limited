@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #009FF0;
+  --color-line: #D6EEFB;
+  --color-alt: #F7FBFE;
+  --font-sans: var(--font-poppins), "Segoe UI", Arial, sans-serif;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+body { background: #fff; color: #000; }
